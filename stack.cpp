@@ -10,7 +10,7 @@ stack(){
 }
 void push(int element){
     if(top>=Max_Size){
-        cout<<"the iten is full\n";
+        cout<<"the item is full\n";
     }
     else{
         top++;
@@ -22,7 +22,7 @@ bool isEmpty(){
 }
 void pop(){
     if(isEmpty()){
-        cout<<"the iten is farh\n ";
+        cout<<"the item is full\n ";
     }
     else{
         top--;
@@ -31,7 +31,7 @@ void pop(){
 
 void pop(int &element){
         if(isEmpty()){
-        cout<<"the iten is farh\n ";
+        cout<<"the item is full\n ";
     }
     else{
         element=item[top];
@@ -40,7 +40,7 @@ void pop(int &element){
 }
 void getTop(){
     if(isEmpty()){
-        cout<<"the iten is farh\n ";
+        cout<<"the item is full\n ";
     }else{
       //  stacktop=item[top];
 cout<<item[top];//
